@@ -13,17 +13,18 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 116745304
+  numberOfBytes: 118440312
   numberOfFiles: 178
   numberOfSubjects: 14
   schemaKey: AssetsSummary
   species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Silkuniene, Giedre; Pakhomov, Andrei; Semenov, Iurii (2024) Sine wave neuron
-  stimulation 3 (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001034/draft
+citation: Silkuniene, Giedre; Pakhomov, Andrei; Semenov, Iurii (2024) Characterization
+  of Neuron Action Potential Triggering Using Sine Wave Electrostimulation at Varying
+  Frequencies_part3 (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001034/draft
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -50,7 +51,12 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-21T17:22:59.633414+00:00'
-description: Batch 3
+datePublished: '2024-05-27T14:31:28.416050+00:00'
+description: This experimental series aimed to characterize the triggering of action
+  potentials (APs) in neurons using sine waves and modulated sine waves at varying
+  frequencies. The experiments were conducted on E18 Sprague Dawley rat hippocampal
+  neurons (BrainBits, Springfield, IL), employing the voltage-sensitive dye FluoVolt
+  (Thermo Fisher Scientific, Waltham, MA) as the AP reporter.
 ethicsApproval: []
 id: DANDI:001034/draft
 identifier: DANDI:001034
@@ -59,8 +65,21 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001034/versions/draft/assets/
-name: Sine wave neuron stimulation 3
+name: Characterization of Neuron Action Potential Triggering Using Sine Wave Electrostimulation
+  at Varying Frequencies_part3
 protocol: []
+publishedBy:
+  endDate: '2024-05-27T14:31:28.416050+00:00'
+  id: urn:uuid:1ff2102c-4fb6-42bc-89db-feed3b3a5a2f
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-05-27T14:31:28.416050+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:9097cbdd-71e1-4c79-90df-51f703bce849
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
